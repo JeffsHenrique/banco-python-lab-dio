@@ -52,10 +52,10 @@ while True:
             print("Ocorreu um erro ao realizar o saque. Por favor, tente novamente.")
         
     elif opcao == "e":
-        if extrato == "":
-            print("Não foram realizadas movimentações.")
-        else:
-            print(f"{extrato}\n>>> Saldo atual: {saldo:.2f}\n")
+        print("\n================ EXTRATO ================")
+        print("Não foram realizadas movimentações." if not extrato else extrato)
+        print(f"\nSaldo: R$ {saldo:.2f}")
+        print("==========================================")
     
     elif opcao == "q":
         break

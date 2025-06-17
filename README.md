@@ -129,18 +129,25 @@ Falha! Você não tem saldo suficiente para realizar essa operação.
 Extrato:
 
 ```
->>> Depósito realizado: R$ 1000.00
+================ EXTRATO ================
+>>> Depósito realizado: R$ 1500.00
 >>> Saque realizado: R$ 500.00
 >>> Saque realizado: R$ 500.00
 
->>> Saldo atual: 0.00
+
+Saldo: R$ 500.00
+==========================================
 ```
 
 <br>
 
 Banco sem movimentações:
 ```
+================ EXTRATO ================
 Não foram realizadas movimentações.
+
+Saldo: R$ 0.00
+==========================================
 ```
 
 <br><br>
